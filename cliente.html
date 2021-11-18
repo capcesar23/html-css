@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+</head>
+<body>
+    
+    <h1 align="center">Cliente</h1>
+    
+    <fieldset>
+    <!-- definindo a legenda no fieldset-->
+    <legend>Dados Pessoais</legend>
+            <!--Formulário-->
+        <form action="">
+            <!-- inserir o nome -->
+            <label for="nome"> <b>Nome:</b> </label>
+            <input type="text"> <br><br>
+            
+            <!--inserir data de Nascimento-->
+            <label for="dataNascimento"> <b>Data de Nascimento:</b> </label>
+            <input type="date"> <br><br>
+
+            <!-- inserir o email -->
+            <label for="cpf"><b>CPF:</b></label>
+            <input type="text" placeholder="CPF"> <br><br>
+
+           
+            <label for="idade"> <b>Você é maior de idade?</b> </label><br><br>
+            <input type="radio"  name="sexo">
+            <label for="sim">Sim</label>
+            <input type="radio" id="feminino" name="sexo">
+            <label for="nao">Não</label>
+            <br><br>
+
+            <label for="sexo"> <b>Sexo:</b> </label><br><br>
+            <input type="radio" id="masculino" name="sexo">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="sexo">
+            <label for="feminino">Feminino</label>
+            <br><br>
+
+            <label for="sexo"> <b>Você gosta de:</b> </label><br><br>
+            <input type="radio" id="masculino" name="sexo">
+            <label for="masculino">Cinema</label>
+            <input type="radio" id="feminino" name="sexo">
+            <label for="feminino">Escola</label>
+            <input type="radio" id="masculino" name="sexo">
+            <label for="masculino">Futebol</label>
+            <input type="radio" id="feminino" name="sexo">
+            <label for="feminino">Java</label>
+            <input type="radio" id="masculino" name="sexo">
+            <label for="masculino">Nada</label>
+            <br><br>
+
+
+              <!-- inserir caixa de escolha-->
+              <label for="sexo"> <b>Conhecimento</b> </label>
+              <select name="sexo">
+                  <option value="">Selecione</option>
+                  <option value="Mat">Matemática</option>
+                  <option value="Port">Português</option>
+              </select> <br><br>
+            
+            <!-- caixa de observações-->
+            <label for="observacoes"> <b>Observações:</b> </label><br><br>
+            <textarea name="observacoes" id="observacoes" cols="30" rows="5"></textarea> <br><br>
+
+            <!-- botão de salvar -->
+            <input type="button" value="salvar" color="azul">
+            
+            <!-- botão de limpar -->
+            <input type="button" value="limpar" backgrond-color="azul"> 
+        </form>
+
+    </fieldset>  
+</body>
+</html>
