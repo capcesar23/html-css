@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color: #f5f5f5;
+    background-image: url('/exercicio2/img/fundo.jpg');
+}
+#header{    
+    color: #fff;
+    
+    padding: 10px;
+    text-align: center;
+}
+#header h1{
+    padding: 10px;
+}
+#header h2{
+    padding-top: 30px;
+}
+
+#main {   
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 10px; 
+    text-align: justify;
+    color: #fff;
+}
+#main p {
+    padding-top: 10px;
+}
+#main img{
+    width: 20%;
+    height: 20%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main a{
+    text-decoration: none;
+    color: gray;
+}
+#main a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.lista ul{
+    list-style-type: disc;
+    margin: 10px;
+    padding-left: 50px;
+}
+.footer{
+    width: auto;
+    height: 10px;
+    color: #fff;
+    margin: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+.footer a{
+    float: right;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+
+
+
+
