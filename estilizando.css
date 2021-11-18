@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: #0000c1;
+    width: 100%;/*largura geral do body 100%*/
+    height: 100vh;/*altura geral do body*/ 
+}
+/* fim da configuração geral */
+/* Configurando h1 */
+h1 {
+    text-align: center;
+    color: orange;
+    font-size: 10em;
+    /*margin-top: 20px;*/
+}
+/* fim da configuração h1 */
+/* Configurando p1 */
+.p1 {
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+    margin: 80px;
+    
+}
+/* fim da configuração p1 */
+/* Configurando p2 */
+.p2 {
+    text-align: center;
+    color: red;
+    font-size: 70px;
+    margin: 80px;
+    text-decoration: underline;
+}
+/* fim da configuração p2 */
+/* configurando ul */
+ul {
+    list-style-type: disc;
+    margin: 80px;
+    padding-left: 50px;
+}
+/* fim da configuração ul */
+/* configurando li */
+li {  
+    margin: 20px;
+    padding: 0px;
+    color: coral;
+    font-size: 50px;
+}
