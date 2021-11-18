@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <!--Titulo da Página-->
+    <h1>Formulário de Inscrição</h1>
+    <!--Segundo título-->
+    <h2>Preencha seus dados</h2>
+    <!--Formulário-->
+    <form action="">
+        <!-- inserir o nome -->
+        <label for="nome"> <b>Nome:</b> </label>
+        <input type="text"> <br><br>
+
+        <!-- inserir o email -->
+        <label for="email"> <b>E-mail:</b> </label>
+        <input type="email"> <br><br>
+
+        <!-- inserir o endereço -->
+        <label for="endereco"><b>Endereço:</b></label>
+        <input type="text"> <br><br>
+
+        <!-- inserir o cidade -->
+        <label for="cidade"><b>Cidade:</b></label>
+        <input type="text"> <br><br>
+
+        <!-- inserir o nome -->
+        <label for="telefone"><b>Telefone:</b></label>
+        <input type="tel" maxlength="3" size="3">
+        <input type="tel"  maxlength="9" size="9"> <br><br>
+
+        <!-- inserir usuário-->
+        <label for="username"><b>Usuário:</b></label>
+        <input type="text" id="username" name="usuário" placeholder="Entre com o seu login" ><br><br>
+               
+        <!-- inserir senha-->
+        <label for="pass"><b>Senha:</b></label>
+        <input type="password" id="pass" name="password" minlength="8"><br><br>
+        
+        <!-- butão para finalizar a inscrição-->
+        <button onclick="alert('Inscrição realizada com sucesso!')"><b>Finalizar minha inscrição</b></button>
+
+    </form>
+    
+</body>
+</html>
