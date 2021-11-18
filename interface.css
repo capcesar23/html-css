@@ -1,0 +1,70 @@
+/*configuração geral*/
+*{
+    margin: 0px;
+    padding: 0px;    
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border: none;
+}
+/* fim configuração geral*/
+
+body{
+    background-color: #0c56b6;/* cor de fundo*/
+}
+#logo{
+    width: 200px;/* largura da logo*/
+   /*posicionando o logo ao centro da tela*/
+    margin-left: auto;
+    margin-right: auto;
+    /*fim posicionamento*/
+    padding: 10px 10px;
+    margin-top: 20vh;
+    display: flex;    
+}
+/* grid */
+.container{    
+    min-height: 100%;/* altura da tela*/
+    position: relative;/* posição relativa*/
+}
+.container::after{
+    content:"";/* pseudo elemento html, conteudo do container*/
+    clear: both;/* limpa a tela*/
+    display: block;/* exibe o container*/
+}
+.container{
+    background-color: #fff;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;   
+    text-align: center;
+}
+/* form*/
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;/* direção da coluna*/    
+}
+input{
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 2px solid #9c9ea093;/* borda inferior*/
+    padding-top: 20px;
+}
+input::placeholder{/* configurando placeholder do input */
+    color: #9c9ea093;
+}
+button{
+    padding: 15px;
+    border:none;/* removendo borda do botão*/
+    outline: none;/* removendo padrão do botão*/
+    font-size: 15px;
+    background-color: rgba(29, 126, 29, 0.815);
+    color: rgba(255, 255, 255, 0.747);
+    cursor: pointer;/* muda o cursor do mouse*/    
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #0c56b6;
+    
+}
